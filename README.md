@@ -1,5 +1,8 @@
 # HTTP Basic Authentication
+[![Build Status](https://travis-ci.org/valentineus/auth-http.svg?branch=master)](https://travis-ci.org/valentineus/auth-http)
+
 Adds Basic Authentication Moodle.
+
 The plugin is designed to work in the environment of Moodle 3.2+.
 
 It is worthwhile to understand the motives and reasons before installing the plug-in, because:
