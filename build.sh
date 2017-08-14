@@ -10,7 +10,11 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 export PATH="$PATH:/usr/local/scripts"
 
 # Build the package
-zip -9 -r auth-http.zip ./  -x ".git*" -x ".travis.yml" -x "build.sh"
+cd ..
+zip -9 -r auth-http.zip auth-http  \
+        -x "auth-http/.git*"       \
+        -x "auth-http/.travis.yml" \
+        -x "auth-http/build.sh"
 
 # End of work
 exit 0
