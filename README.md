@@ -11,6 +11,12 @@ Consequently, the ability to register and restore the password for users will be
  * HTTP Basic Authentication is the least secure authorization system, because authorization keys are transmitted in clear text.
 Use a secure HTTPS protocol to protect user information.
 
+## Build
+The script `build.sh` collects the final package for installation in Moodle.
+```bash
+/bin/sh ./build.sh
+```
+
 ## License
 [MIT](LICENSE.md).
 Copyright (c)
